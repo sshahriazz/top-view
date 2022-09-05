@@ -54,7 +54,7 @@ const buildEsm = step('es modules', async () => {
 });
 
 /**
- * Bundles a minified and unminified version of tridentui including
+ * Bundles a minified and unminified version of topview including
  * all its immediate dependencies (excluding React, ReactDOM, etc)
  */
 const buildUmd = step(

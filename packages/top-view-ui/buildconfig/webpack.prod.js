@@ -12,7 +12,7 @@ module.exports = merge(common, {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, '../lib/esm'),
-    library: 'TridentUI',
+    library: 'TopView',
     libraryTarget: 'umd',
     globalObject: 'this',
   },

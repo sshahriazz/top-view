@@ -6,8 +6,8 @@ module.exports = (distRoot, optimize) => ({
   entry: './src/index.ts',
   output: {
     path: distRoot,
-    filename: optimize ? 'tridentui.min.js' : 'tridentui.js',
-    library: 'TridentUI',
+    filename: optimize ? 'topview.min.js' : 'topview.js',
+    library: 'TopView',
     libraryTarget: 'umd',
   },
   module: {
